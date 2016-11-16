@@ -1,0 +1,8 @@
+schema Human {
+    name*: string;
+    age:int, min(0);
+
+    .create {
+        age*;
+    }
+}
